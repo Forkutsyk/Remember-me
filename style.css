@@ -38,4 +38,9 @@ font-size: 2em;
   padding: 20px;
   margin-left: 20px;
   padding-right: 1000px;
+  border-radius: 15px;
+  border: 2px solid silver;
+}
+.placeholder{
+
 }
