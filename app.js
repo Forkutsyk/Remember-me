@@ -1,2 +1,2 @@
-var text="Hello world";
-alert(text);
+//var text="Hello world";
+//alert(text);
