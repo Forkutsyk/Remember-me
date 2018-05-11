@@ -1,4 +1,4 @@
-/*  */
+/* Main */
 *{
   margin: 0;
   padding: 0;
@@ -12,8 +12,10 @@ body{
   font-size: 1em;
   font-family: "Segoe UI", sans-serif;
 }
-
 a{
+  text-decoration: none;
+}
+a.list_text{
   padding-left: 20px;
   color:#00cc99;
   font-size: 50px;
@@ -35,12 +37,43 @@ font-size: 2em;
 }
 /* write_list */
 .field{
-  padding: 20px;
-  margin-left: 20px;
-  padding-right: 1000px;
+ padding: 10px;
+  margin-left: 15px;
+  padding-right: 700px;
   border-radius: 15px;
   border: 2px solid silver;
 }
-.placeholder{
+input{
+  text-align: center;
+  font-size: 40px;
+}
+#time{
+margin-left: 20px;
+text-align: center;
 
+border-bottom: 2px solid silver;
+border-radius: 10px;
+}
+/*buttons on creator*/
+.right{
+  float: right;
+  margin-right: 40px;
+  background: #ffcc66;
+  border-bottom: 1px solid silver;
+  border-radius: 15px;
+  padding: 1%;
+}
+.left{
+  float: left;
+  margin-left: 40px;
+  background: #ffcc66;
+  border-bottom: 1px solid silver;
+  border-radius: 15px;
+  padding: 1%;
+}
+.left:hover{
+  background: #8ce4a6;
+}
+.right:hover{
+    background: #8ce4a6;
 }
