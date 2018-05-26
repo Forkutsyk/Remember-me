@@ -1,2 +1,3 @@
-//var text="Hello world";
-//alert(text);
+function AddLS() {
+
+}
