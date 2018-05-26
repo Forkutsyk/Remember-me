@@ -11,11 +11,6 @@ var todoList = [];
    var i = todoList.length;
    todoList[i] = temp;
    console.log(todoList);
- }
- function out() {
-   var out = '';
-   for (var key in todoList){
-     out += todoList[key].todo + '<br>';
-   }
+   localStorage.setItem('todo',JSON.stringify(todoList))
  }
 }
