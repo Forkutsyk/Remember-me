@@ -3,7 +3,7 @@ window.onload = function() {
     todoList = JSON.parse(localStorage.getItem('todo'));
     out();
   }
-function out() {
+function out(){
   var out = '';
   for (var key in todoList){
     if (todoList[key].check == true){
