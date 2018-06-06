@@ -49,17 +49,17 @@ input{
   font-size: 40px;
 }
 
-#time{
-margin-left: 20px;
-text-align: center;
-border-bottom: 2px solid silver;
-border-radius: 10px;
+.Chas{
+  padding: 2px;
+  margin-left: 15px;
+  border-radius: 15px;
+  border: 2px solid silver;
 }
 /*buttons on creator*/
 .right{
   float: right;
   margin-right: 40px;
-  background: #ffcc66;
+  background: #4dff4d;
   border-bottom: 1px solid silver;
   border-radius: 15px;
   padding: 1%;
@@ -67,7 +67,7 @@ border-radius: 10px;
 .left{
   float: left;
   margin-left: 40px;
-  background: #ffcc66;
+  background: #4dff4d;
   border-bottom: 1px solid silver;
   border-radius: 15px;
   padding: 1%;

@@ -1,10 +1,10 @@
 window.onload = function() {
-  if (localStorage.getItem('todo')!= undefined) {
+  if (localStorage.getItem('todo') != undefined) {
     todoList = JSON.parse(localStorage.getItem('todo'));
     out();
   }
 function out(){
-  var out = '';
+  var out = ' ';
   for (var key in todoList){
     if (todoList[key].check == true){
       out += '<input type="checkbox" checked>';
@@ -12,11 +12,14 @@ function out(){
     else {
       out += '<input type="checkbox">';
     }
-    out += todoList[key].todo + '<br>';
+    out += todoList[key].todo +'<br>'+ todoList[key].time + '<br>';
   }
   document.getElementById('out').innerHTML = out;
   out();
 }
+
+
+/* Початкова таблиця*/
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
